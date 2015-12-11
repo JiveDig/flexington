@@ -6,9 +6,11 @@
 .wrap.row::after,
 .wrap.row::before {
     content: "";
-    display: none
+    display: none;
+    visibility: hidden;
 }
 
+.col,
 .row {
     box-sizing: border-box;
     display: -webkit-flex;
@@ -19,13 +21,24 @@
     -ms-flex: 0 1 auto;
     -webkit-box-flex: 0;
     flex: 0 1 auto;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.row {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     -webkit-box-direction: normal;
     flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap
 }
 
 .col.reverse,
