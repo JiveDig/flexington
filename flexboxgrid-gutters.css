@@ -1,4 +1,12 @@
-col,
+.wrap.col::before,
+.wrap.col::after,
+.wrap.row::before,
+.wrap.row::after {
+    display: none;
+    visibility: hidden;
+}
+
+.col,
 .row {
     box-sizing: border-box;
     display: -webkit-flex;
