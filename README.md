@@ -1,4 +1,4 @@
-# Genesis Flexbox Grid
+# Flexbox Grid Gutters
 A modified version of [flexboxgrid.com](http://flexboxgrid.com/)
 Grid based on the flex display property.
 
