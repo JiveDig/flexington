@@ -1,5 +1,7 @@
 # Float Grid
-A modified version of bootstrap v3.x grid.
+A grid framework using floats. Allows column width declaration from the wrapping element.
+<br />Allows for nesting of columns.
+<br />(Live example here)[http://codepen.io/JiveDig/pen/bEvpBv]
 
 ## Requirements
 * `.col` must be an immediate child of `.col-*`, this allows for nested grids
