@@ -4,7 +4,7 @@ A grid framework using floats. Allows column width declaration from the wrapping
 <br />[View codepen](http://codepen.io/JiveDig/pen/bEvpBv).
 
 ## Requirements
-* `.col` must be an immediate child of `.col-*`, this allows for nested grids
+`.col` must be an immediate child of `.col-*`, this allows for nested grids
 
 ## How To Use
 Add a class for **all** of the 4 breakpoints (xs, sm, md, lg) to a container element to declare the total columns out of the 12.<br />
