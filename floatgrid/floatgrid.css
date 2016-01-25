@@ -21,6 +21,7 @@
 }
 .col-xs-12 > .col {
   width: 100%;
+  margin-left: 0;
 }
 .col-xs-11 > .col {
   width: 91.527777777778%;
@@ -101,7 +102,8 @@
 .col-xs-2 > .col:nth-of-type(6n+1),
 .col-xs-3 > .col:nth-of-type(4n+1),
 .col-xs-4 > .col:nth-of-type(3n+1),
-.col-xs-6 > .col:nth-of-type(2n+1) {
+.col-xs-6 > .col:nth-of-type(2n+1),
+.col-xs-12 > .col:nth-of-type(1n) {
   clear: both;
   margin-left: 0;
 }
@@ -209,7 +211,8 @@
   .col-sm-2 > .col:nth-of-type(6n+1),
   .col-sm-3 > .col:nth-of-type(4n+1),
   .col-sm-4 > .col:nth-of-type(3n+1),
-  .col-sm-6 > .col:nth-of-type(2n+1) {
+  .col-sm-6 > .col:nth-of-type(2n+1),
+  .col-sm-12 > .col:nth-of-type(1n) {
     clear: both;
     margin-left: 0;
   }
@@ -319,7 +322,8 @@
   .col-md-2 > .col:nth-of-type(6n+1),
   .col-md-3 > .col:nth-of-type(4n+1),
   .col-md-4 > .col:nth-of-type(3n+1),
-  .col-md-6 > .col:nth-of-type(2n+1) {
+  .col-md-6 > .col:nth-of-type(2n+1),
+  .col-md-12 > .col:nth-of-type(1n) {
     clear: both;
     margin-left: 0;
   }
@@ -430,7 +434,8 @@
   .col-lg-2 > .col:nth-of-type(6n+1),
   .col-lg-3 > .col:nth-of-type(4n+1),
   .col-lg-4 > .col:nth-of-type(3n+1),
-  .col-lg-6 > .col:nth-of-type(2n+1) {
+  .col-lg-6 > .col:nth-of-type(2n+1),
+  .col-lg-12 > .col:nth-of-type(1n) {
     clear: both;
     margin-left: 0;
   }
