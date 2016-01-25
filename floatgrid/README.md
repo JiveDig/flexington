@@ -2,8 +2,6 @@
 A modified version of bootstrap v3.x grid.
 
 ## Known Issues
-* Only works for equal column widths
-* Cannot do 2/3 and 1/3 in the same row
 * `.col` must be an immediate child of `.col-*`, this allows for nested grids
 
 ## How To Use
