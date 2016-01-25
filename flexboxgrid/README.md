@@ -1,7 +1,7 @@
 # Flexbox Grid
 A modified version of [flexboxgrid.com](http://flexboxgrid.com/). This version has smaller column widths to proved gutters
 Grid based on the flex display property.
-[View Codepen](http://codepen.io/JiveDig/pen/XXEjbZ)
+<br />[View Codepen](http://codepen.io/JiveDig/pen/XXEjbZ)
 
 ## Known bug/issue 
 If last row doesn't have enough elements the elements in that row have a space between.
