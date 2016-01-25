@@ -4,7 +4,7 @@ Grid based on the flex display property.
 
 ## Known bug/issue 
 If last row doesn't have enough elements (while using `between-*` class) the elements in that row have a space between.
-See (this discussion)[http://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid]
+See [this discussion](http://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid)
 
 ## How To Use
 Please see [flexboxgrid.com](http://flexboxgrid.com/) for usage. All classes are the same.
