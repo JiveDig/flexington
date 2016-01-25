@@ -1,7 +1,7 @@
 # Float Grid
 A modified version of bootstrap v3.x grid.
 
-## Known Issues
+## Requirements
 * `.col` must be an immediate child of `.col-*`, this allows for nested grids
 
 ## How To Use
