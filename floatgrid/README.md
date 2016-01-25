@@ -2,9 +2,9 @@
 A modified version of bootstrap v3.x grid.
 
 ## Known Issues
-* `.col` must be an immediate child of `.col-*`, this allows for nested grids
 * Only works for equal column widths
 * Cannot do 2/3 and 1/3 in the same row
+* `.col` must be an immediate child of `.col-*`, this allows for nested grids
 
 ## How To Use
 Add a class for **all** of the 4 breakpoints (xs, sm, md, lg) to a container element to declare the total columns out of the 12.<br />
