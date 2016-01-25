@@ -1,7 +1,7 @@
 # Flexbox Grid
 A grid framework using floats. Allows column width declaration from the wrapping element.
 <br />Allows for nesting of columns.
-<br />[View codepen](http://codepen.io/JiveDig/pen/bEvpBv).
+<br />[View FlexGrid codepen](http://codepen.io/JiveDig/pen/bEvpBv).
 
 ## Requirements
 `.col` must be an immediate child of `.flex-col-*`, this allows for nested grids
