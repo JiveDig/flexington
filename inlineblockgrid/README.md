@@ -8,5 +8,5 @@ When HTML doesn't have a space or line break between elements, `.text-align: jus
 
 ## How to use
 * Add a class of `.row` to the container element.
-* Add responsive classes for the breakpoints you want to utilize
+* Add responsive classes for the breakpoints you want to utilize (xs, sm, md, lg)
 * Example `<div class="col-xs-12 col-sm-6 col-md-4">`
