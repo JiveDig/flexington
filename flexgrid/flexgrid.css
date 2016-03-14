@@ -1,3 +1,4 @@
+/* Version: 1.1.0 */
 .wrap.flex-cols::before,
 .wrap.flex-cols::after {
   display: none;
