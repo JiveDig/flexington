@@ -1,4 +1,4 @@
-/* Version: 1.2.0 */
+/* Version: 1.2.1 */
 .wrap.flex-cols::before,
 .wrap.flex-cols::after {
     display: none;
@@ -345,19 +345,19 @@
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-sm-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-6 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-11-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-10-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-9-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-8-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-4-8 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-3-9 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-2-10 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-sm-1-11 > .col:nth-child(1n):nth-last-child(1n) ~ .col {
         margin-left: 0;
     }
 
@@ -669,32 +669,19 @@
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-md-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-6 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-11-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-10-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-9-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-8-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-4-8 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-3-9 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-2-10 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-md-1-11 > .col:nth-child(1n):nth-last-child(1n) ~ .col {
         margin-left: 0;
     }
 
@@ -1006,45 +993,19 @@
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
-    .flex-col-md-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
-    .flex-col-md-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
-    .flex-col-md-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
-    .flex-col-md-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
-    .flex-col-md-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-lg-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-6 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-11-1 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-10-2 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-9-3 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-8-4 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-4-8 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-3-9 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-2-10 > .col:nth-child(1n):nth-last-child(1n) ~ .col,
+    .flex-col-lg-1-11 > .col:nth-child(1n):nth-last-child(1n) ~ .col {
         margin-left: 0;
     }
 
