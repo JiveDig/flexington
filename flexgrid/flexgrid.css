@@ -1,5 +1,6 @@
 /* Version: 1.2.0 */
-.wrap.flex-cols::before,.wrap.flex-cols::after {
+.wrap.flex-cols::before,
+.wrap.flex-cols::after {
     display: none;
     visibility: hidden;
 }
@@ -37,7 +38,19 @@
     flex: auto;
 }
 
-.flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+.flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+.flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+.flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+.flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+.flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+.flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
     margin-left: 1.66666667%;
 }
 
@@ -305,18 +318,62 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .flex-col-sm-1 > .col:nth-of-type(1n),.flex-col-sm-2 > .col:nth-of-type(1n),.flex-col-sm-3 > .col:nth-of-type(1n),.flex-col-sm-4 > .col:nth-of-type(1n),.flex-col-sm-5 > .col:nth-of-type(1n),.flex-col-sm-6 > .col:nth-of-type(1n),.flex-col-sm-7 > .col:nth-of-type(1n),.flex-col-sm-8 > .col:nth-of-type(1n),.flex-col-sm-9 > .col:nth-of-type(1n),.flex-col-sm-10 > .col:nth-of-type(1n),.flex-col-sm-11 > .col:nth-of-type(1n),.flex-col-sm-12 > .col:nth-of-type(1n),.flex-col-sm-11-1 > .col:nth-of-type(1n),.flex-col-sm-10-2 > .col:nth-of-type(1n),.flex-col-sm-9-3 > .col:nth-of-type(1n),.flex-col-sm-8-4 > .col:nth-of-type(1n),.flex-col-sm-4-8 > .col:nth-of-type(1n),.flex-col-sm-3-9 > .col:nth-of-type(1n),.flex-col-sm-2-10 > .col:nth-of-type(1n),.flex-col-sm-1-11 > .col:nth-of-type(1n) {
+
+    .flex-col-sm-1 > .col:nth-of-type(1n),
+    .flex-col-sm-2 > .col:nth-of-type(1n),
+    .flex-col-sm-3 > .col:nth-of-type(1n),
+    .flex-col-sm-4 > .col:nth-of-type(1n),
+    .flex-col-sm-5 > .col:nth-of-type(1n),
+    .flex-col-sm-6 > .col:nth-of-type(1n),
+    .flex-col-sm-7 > .col:nth-of-type(1n),
+    .flex-col-sm-8 > .col:nth-of-type(1n),
+    .flex-col-sm-9 > .col:nth-of-type(1n),
+    .flex-col-sm-10 > .col:nth-of-type(1n),
+    .flex-col-sm-11 > .col:nth-of-type(1n),
+    .flex-col-sm-12 > .col:nth-of-type(1n),
+    .flex-col-sm-11-1 > .col:nth-of-type(1n),
+    .flex-col-sm-10-2 > .col:nth-of-type(1n),
+    .flex-col-sm-9-3 > .col:nth-of-type(1n),
+    .flex-col-sm-8-4 > .col:nth-of-type(1n),
+    .flex-col-sm-4-8 > .col:nth-of-type(1n),
+    .flex-col-sm-3-9 > .col:nth-of-type(1n),
+    .flex-col-sm-2-10 > .col:nth-of-type(1n),
+    .flex-col-sm-1-11 > .col:nth-of-type(1n) {
         box-sizing: border-box;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 0;
     }
 
-    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 1.66666667%;
     }
 
@@ -585,18 +642,75 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .flex-col-md-1 > .col:nth-of-type(1n),.flex-col-md-2 > .col:nth-of-type(1n),.flex-col-md-3 > .col:nth-of-type(1n),.flex-col-md-4 > .col:nth-of-type(1n),.flex-col-md-5 > .col:nth-of-type(1n),.flex-col-md-6 > .col:nth-of-type(1n),.flex-col-md-7 > .col:nth-of-type(1n),.flex-col-md-8 > .col:nth-of-type(1n),.flex-col-md-9 > .col:nth-of-type(1n),.flex-col-md-10 > .col:nth-of-type(1n),.flex-col-md-11 > .col:nth-of-type(1n),.flex-col-md-12 > .col:nth-of-type(1n),.flex-col-md-11-1 > .col:nth-of-type(1n),.flex-col-md-10-2 > .col:nth-of-type(1n),.flex-col-md-9-3 > .col:nth-of-type(1n),.flex-col-md-8-4 > .col:nth-of-type(1n),.flex-col-md-4-8 > .col:nth-of-type(1n),.flex-col-md-3-9 > .col:nth-of-type(1n),.flex-col-md-2-10 > .col:nth-of-type(1n),.flex-col-md-1-11 > .col:nth-of-type(1n) {
+
+    .flex-col-md-1 > .col:nth-of-type(1n),
+    .flex-col-md-2 > .col:nth-of-type(1n),
+    .flex-col-md-3 > .col:nth-of-type(1n),
+    .flex-col-md-4 > .col:nth-of-type(1n),
+    .flex-col-md-5 > .col:nth-of-type(1n),
+    .flex-col-md-6 > .col:nth-of-type(1n),
+    .flex-col-md-7 > .col:nth-of-type(1n),
+    .flex-col-md-8 > .col:nth-of-type(1n),
+    .flex-col-md-9 > .col:nth-of-type(1n),
+    .flex-col-md-10 > .col:nth-of-type(1n),
+    .flex-col-md-11 > .col:nth-of-type(1n),
+    .flex-col-md-12 > .col:nth-of-type(1n),
+    .flex-col-md-11-1 > .col:nth-of-type(1n),
+    .flex-col-md-10-2 > .col:nth-of-type(1n),
+    .flex-col-md-9-3 > .col:nth-of-type(1n),
+    .flex-col-md-8-4 > .col:nth-of-type(1n),
+    .flex-col-md-4-8 > .col:nth-of-type(1n),
+    .flex-col-md-3-9 > .col:nth-of-type(1n),
+    .flex-col-md-2-10 > .col:nth-of-type(1n),
+    .flex-col-md-1-11 > .col:nth-of-type(1n) {
         box-sizing: border-box;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 0;
     }
 
-    .flex-col-md-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-md-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-md-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-md-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-md-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-md-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-md-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-md-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-md-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-md-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 1.66666667%;
     }
 
@@ -865,18 +979,88 @@
 }
 
 @media only screen and (min-width: 1193px) {
-    .flex-col-lg-1 > .col:nth-of-type(1n),.flex-col-lg-2 > .col:nth-of-type(1n),.flex-col-lg-3 > .col:nth-of-type(1n),.flex-col-lg-4 > .col:nth-of-type(1n),.flex-col-lg-5 > .col:nth-of-type(1n),.flex-col-lg-6 > .col:nth-of-type(1n),.flex-col-lg-7 > .col:nth-of-type(1n),.flex-col-lg-8 > .col:nth-of-type(1n),.flex-col-lg-9 > .col:nth-of-type(1n),.flex-col-lg-10 > .col:nth-of-type(1n),.flex-col-lg-11 > .col:nth-of-type(1n),.flex-col-lg-12 > .col:nth-of-type(1n),.flex-col-lg-11-1 > .col:nth-of-type(1n),.flex-col-lg-10-2 > .col:nth-of-type(1n),.flex-col-lg-9-3 > .col:nth-of-type(1n),.flex-col-lg-8-4 > .col:nth-of-type(1n),.flex-col-lg-4-8 > .col:nth-of-type(1n),.flex-col-lg-3-9 > .col:nth-of-type(1n),.flex-col-lg-2-10 > .col:nth-of-type(1n),.flex-col-lg-1-11 > .col:nth-of-type(1n) {
+
+    .flex-col-lg-1 > .col:nth-of-type(1n),
+    .flex-col-lg-2 > .col:nth-of-type(1n),
+    .flex-col-lg-3 > .col:nth-of-type(1n),
+    .flex-col-lg-4 > .col:nth-of-type(1n),
+    .flex-col-lg-5 > .col:nth-of-type(1n),
+    .flex-col-lg-6 > .col:nth-of-type(1n),
+    .flex-col-lg-7 > .col:nth-of-type(1n),
+    .flex-col-lg-8 > .col:nth-of-type(1n),
+    .flex-col-lg-9 > .col:nth-of-type(1n),
+    .flex-col-lg-10 > .col:nth-of-type(1n),
+    .flex-col-lg-11 > .col:nth-of-type(1n),
+    .flex-col-lg-12 > .col:nth-of-type(1n),
+    .flex-col-lg-11-1 > .col:nth-of-type(1n),
+    .flex-col-lg-10-2 > .col:nth-of-type(1n),
+    .flex-col-lg-9-3 > .col:nth-of-type(1n),
+    .flex-col-lg-8-4 > .col:nth-of-type(1n),
+    .flex-col-lg-4-8 > .col:nth-of-type(1n),
+    .flex-col-lg-3-9 > .col:nth-of-type(1n),
+    .flex-col-lg-2-10 > .col:nth-of-type(1n),
+    .flex-col-lg-1-11 > .col:nth-of-type(1n) {
         box-sizing: border-box;
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
     }
 
-    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-md-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-md-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-md-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-md-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-md-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-xs-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-xs-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-xs-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-xs-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-xs-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-xs-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-sm-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-sm-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-sm-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-sm-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-sm-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-md-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-md-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-md-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-md-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-md-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 0;
     }
 
-    .flex-col-lg-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,.flex-col-lg-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,.flex-col-lg-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,.flex-col-lg-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,.flex-col-lg-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,.flex-col-lg-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
+    .flex-col-lg-1 > .col:nth-child(12n+1):nth-last-child(-n+12) ~ .col,
+    .flex-col-lg-2 > .col:nth-child(6n+1):nth-last-child(-n+6) ~ .col,
+    .flex-col-lg-3 > .col:nth-child(4n+1):nth-last-child(-n+4) ~ .col,
+    .flex-col-lg-4 > .col:nth-child(3n+1):nth-last-child(-n+3) ~ .col,
+    .flex-col-lg-6 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-11-1 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-10-2 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-9-3 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-8-4 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-4-8 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-3-9 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-2-10 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col,
+    .flex-col-lg-1-11 > .col:nth-child(2n+1):nth-last-child(-n+2) ~ .col {
         margin-left: 1.66666667%;
     }
 
