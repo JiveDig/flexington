@@ -1,7 +1,9 @@
 # Flexbox Grid
-## A grid framework using flexbox. Allows column width declaration from the wrapping element.
-* Allows for nesting of columns.
-* [View FlexGrid codepen](http://codepen.io/JiveDig/pen/bEvwdp).
+## A grid framework using flexbox. Originally forked from [Flexbox Grid](http://flexboxgrid.com/).
+* This version adds optional gutters and a few other minor tweaks.
+* Declare various breakpoints right in your HTML.
+* Easily nest columns.
+* [View FlexGrid codepen](http://codepen.io/JiveDig/pen/vXmykK).
 
 ## Requirements
 `.col` must be an immediate child of `.row`, this allows for nested grids
