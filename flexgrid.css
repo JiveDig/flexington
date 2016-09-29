@@ -1,4 +1,4 @@
-/* FlexGrid 2.0.0 */
+/* FlexGrid 2.1.0 */
 .gallery,
 .row {
     box-sizing: border-box;
@@ -28,6 +28,10 @@
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+}
+
+.gallery > .gallery-item {
+    text-align: center;
 }
 
 .row.gutter-5 {
@@ -471,6 +475,10 @@
     max-width: calc( 41.66666667% - 30px );
 }
 
+.gallery-columns-2 > .gallery-item,
+.gallery-columns-3 > .gallery-item,
+.gallery-columns-4 > .gallery-item,
+.gallery-columns-6 > .gallery-item,
 .gutter-30 > .col-xs-6 {
     -ms-flex-preferred-size: calc( 50% - 30px );
     flex-basis: calc( 50% - 30px );
@@ -508,9 +516,6 @@
 }
 
 .gallery-columns-1 > .gallery-item,
-.gallery-columns-2 > .gallery-item,
-.gallery-columns-3 > .gallery-item,
-.gallery-columns-4 > .gallery-item,
 .gutter-30 > .col-xs-12 {
     -ms-flex-preferred-size: calc( 100% - 30px );
     flex-basis: calc( 100% - 30px );
@@ -1135,6 +1140,7 @@
     .gallery-columns-2 > .gallery-item,
     .gallery-columns-3 > .gallery-item,
     .gallery-columns-4 > .gallery-item,
+    .gallery-columns-6 > .gallery-item,
     .gutter-30 > .col-sm-6 {
         -ms-flex-preferred-size: calc( 50% - 30px );
         flex-basis: calc( 50% - 30px );
@@ -1775,13 +1781,13 @@
         max-width: calc( 16.66666667% - 30px );
     }
 
+    .gallery-columns-6 > .gallery-item,
     .gutter-30 > .col-md-3 {
         -ms-flex-preferred-size: calc( 25% - 30px );
         flex-basis: calc( 25% - 30px );
         max-width: calc( 25% - 30px );
     }
 
-    .gallery-columns-2 > .gallery-item,
     .gallery-columns-3 > .gallery-item,
     .gallery-columns-4 > .gallery-item,
     .gutter-30 > .col-md-4 {
@@ -2430,13 +2436,13 @@
         max-width: calc( 8.33333333% - 30px );
     }
 
+    .gallery-columns-6 > .gallery-item,
     .gutter-30 > .col-lg-2 {
         -ms-flex-preferred-size: calc( 16.66666667% - 30px );
         flex-basis: calc( 16.66666667% - 30px );
         max-width: calc( 16.66666667% - 30px );
     }
 
-    .gallery-columns-3 > .gallery-item,
     .gallery-columns-4 > .gallery-item,
     .gutter-30 > .col-lg-3 {
         -ms-flex-preferred-size: calc( 25% - 30px );
