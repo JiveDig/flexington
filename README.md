@@ -30,6 +30,7 @@ function prefix_do_flexington_wrap_open() {
 }
 
 // Flexington archive wrap closing html
+// If archive pagination throws things off, try hooking into `genesis_after_endwhile`
 add_action( 'genesis_after_loop', 'prefix_do_flexington_wrap_close', 0 );
 function prefix_do_flexington_wrap_close() {
 	echo '</div>';
