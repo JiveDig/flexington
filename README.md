@@ -1,10 +1,11 @@
 # Flexington
 
 ## A grid framework using flexbox. Originally forked from [FlexBox Grid](http://flexboxgrid.com/).
-* Optional gutters between grid items.
+* Optional gutters between grid items (not in FlexBox Grid)
 * Declare various breakpoints right in your HTML.
+* Breakpoints: xs < 544, sm > 544, md > 768, lg > 992, xl > 1200
 * Easily nest columns.
-* Support for WordPress Galleries
+* Support for WordPress Galleries (not in FlexBox Grid)
 * [View Flexington codepen](http://codepen.io/JiveDig/pen/vXmykK).
 
 ## Requirements
