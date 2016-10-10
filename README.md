@@ -38,7 +38,7 @@ function prefix_do_flexington_wrap_close() {
 // Add Flexington col classes to .entry
 add_filter( 'genesis_attr_entry', 'prefix_flexington_archive_wrap' );
 function prefix_flexington_archive_wrap( $attributes ) {
-	$attributes['class'] = $attributes['class']. ' col col-xs-4 col-sm-4 col-md-6';
+	$attributes['class'] = $attributes['class']. ' col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2';
 	return $attributes;
 }
 ```
