@@ -1,3 +1,7 @@
+#### 2.2.0
+* Change em to pixel breakpoints
+* Add an -xl size for large screens
+
 #### 2.1.0
 * Change name to Flexington to avoid confusion with the actual flexgrid CSS spec
 * Add support for WordPress galleries (1, 2, 3, 4, 6 column only)

@@ -19,7 +19,7 @@
 Example: `<div class="row">`.
 1. Add a class of `.col` to each immediate child element that is part of the column grid.
 1. Add classes (for breakpoints xs, sm, md, lg) to a container element to declare the total columns out of the 12.
-Example: `<div class="col col-xs-12 col-sm-6 col-md-4">`.
+Example: `<div class="col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">`.
 
 ### Genesis Archives
 ```
@@ -39,7 +39,7 @@ function prefix_do_flexington_wrap_close() {
 // Add Flexington col classes to .entry
 add_filter( 'genesis_attr_entry', 'prefix_flexington_archive_wrap' );
 function prefix_flexington_archive_wrap( $attributes ) {
-	$attributes['class'] = $attributes['class']. ' col col-xs-4 col-sm-4 col-md-6';
+	$attributes['class'] = $attributes['class']. ' col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2';
 	return $attributes;
 }
 ```
