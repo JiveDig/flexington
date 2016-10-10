@@ -3,7 +3,7 @@
 ## A grid framework using flexbox. Originally forked from [FlexBox Grid](http://flexboxgrid.com/).
 * Optional gutters between grid items (not in FlexBox Grid)
 * Declare various breakpoints right in your HTML.
-* Breakpoints: xs < 544, sm > 544, md > 768, lg > 992, xl > 1200
+* Breakpoints: xs < 544px, sm > 544px, md > 768px, lg > 992px, xl > 1200px
 * Easily nest columns.
 * Support for WordPress Galleries (not in FlexBox Grid)
 * [View Flexington codepen](http://codepen.io/JiveDig/pen/vXmykK).
