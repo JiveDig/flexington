@@ -1,0 +1,18 @@
+{
+  "name": "flexington",
+  "version": "2.2.0",
+  "description": "A grid framework using flexbox. Originally forked from FlexBox Grid - flexboxgrid.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/JiveDig/flexington.git"
+  },
+  "author": "Mike Hemberger",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/JiveDig/flexington/issues"
+  },
+  "homepage": "https://github.com/JiveDig/flexington/#readme"
+}
