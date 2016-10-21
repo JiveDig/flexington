@@ -1,4 +1,4 @@
-/* Flexington 2.2.0 */
+/* Flexington 2.3.0 */
 .gallery,
 .row {
     box-sizing: border-box;
@@ -42,11 +42,6 @@
     margin-left: 5px;
 }
 
-.row.gutter-5 > .col:last-of-type {
-    margin-right: auto;
-    margin-left: 5px;
-}
-
 .row.gutter-10 {
     margin-left: -10px;
 }
@@ -55,21 +50,11 @@
     margin-left: 10px;
 }
 
-.row.gutter-10 > .col:last-of-type {
-    margin-right: auto;
-    margin-left: 10px;
-}
-
 .row.gutter-20 {
     margin-left: -20px;
 }
 
 .row.gutter-20 > .col {
-    margin-left: 20px;
-}
-
-.row.gutter-20 > .col:last-of-type {
-    margin-right: auto;
     margin-left: 20px;
 }
 
@@ -83,12 +68,6 @@
     margin-left: 30px;
 }
 
-.gallery > .gallery-item:last-of-type,
-.row.gutter-30 > .col:last-of-type {
-    margin-right: auto;
-    margin-left: 30px;
-}
-
 .row.gutter-40 {
     margin-left: -40px;
 }
@@ -97,21 +76,11 @@
     margin-left: 40px;
 }
 
-.row.gutter-40 > .col:last-of-type {
-    margin-right: auto;
-    margin-left: 40px;
-}
-
 .row.gutter-50 {
     margin-left: -50px;
 }
 
 .row.gutter-50 > .col {
-    margin-left: 50px;
-}
-
-.row.gutter-50 > .col:last-of-type {
-    margin-right: auto;
     margin-left: 50px;
 }
 
@@ -146,15 +115,6 @@
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-}
-
-.col-xs {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    max-width: 100%;
 }
 
 .col-xs-1 {
@@ -666,6 +626,33 @@
     max-width: calc( 100% - 50px );
 }
 
+.col-xs,
+.gutter-5 .col-xs,
+.gutter-10 .col-xs,
+.gutter-20 .col-xs,
+.gutter-30 .col-xs,
+.gutter-40 .col-xs,
+.gutter-50 .col-xs {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.col-xs-auto,
+.gutter-5 .col-xs-auto,
+.gutter-10 .col-xs-auto,
+.gutter-20 .col-xs-auto,
+.gutter-30 .col-xs-auto,
+.gutter-40 .col-xs-auto,
+.gutter-50 .col-xs-auto {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    max-width: auto;
+}
+
 .col-xs-offset-0 {
     margin-left: 0;
 }
@@ -808,15 +795,6 @@
         -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-    }
-
-    .col-sm {
-        -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        -ms-flex-preferred-size: 0;
-        flex-basis: 0;
-        max-width: 100%;
     }
 
     .col-sm-1 {
@@ -1327,6 +1305,33 @@
         max-width: calc( 100% - 50px );
     }
 
+    .col-sm,
+    .gutter-5 .col-sm,
+    .gutter-10 .col-sm,
+    .gutter-20 .col-sm,
+    .gutter-30 .col-sm,
+    .gutter-40 .col-sm,
+    .gutter-50 .col-sm {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+
+    .col-sm-auto,
+    .gutter-5 .col-sm-auto,
+    .gutter-10 .col-sm-auto,
+    .gutter-20 .col-sm-auto,
+    .gutter-30 .col-sm-auto,
+    .gutter-40 .col-sm-auto,
+    .gutter-50 .col-sm-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
+    }
+
     .col-sm-offset-0 {
         margin-left: 0;
     }
@@ -1479,6 +1484,12 @@
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
         max-width: 100%;
+    }
+
+    .col-md-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
     }
 
     .col-md-1 {
@@ -1988,6 +1999,33 @@
         max-width: calc( 100% - 50px );
     }
 
+    .col-md,
+    .gutter-5 .col-md,
+    .gutter-10 .col-md,
+    .gutter-20 .col-md,
+    .gutter-30 .col-md,
+    .gutter-40 .col-md,
+    .gutter-50 .col-md {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+
+    .col-md-auto,
+    .gutter-5 .col-md-auto,
+    .gutter-10 .col-md-auto,
+    .gutter-20 .col-md-auto,
+    .gutter-30 .col-md-auto,
+    .gutter-40 .col-md-auto,
+    .gutter-50 .col-md-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
+    }
+
     .col-md-offset-0 {
         margin-left: 0;
     }
@@ -2140,6 +2178,12 @@
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
         max-width: 100%;
+    }
+
+    .col-lg-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
     }
 
     .col-lg-1 {
@@ -2648,6 +2692,33 @@
         max-width: calc( 100% - 50px );
     }
 
+    .col-lg,
+    .gutter-5 .col-lg,
+    .gutter-10 .col-lg,
+    .gutter-20 .col-lg,
+    .gutter-30 .col-lg,
+    .gutter-40 .col-lg,
+    .gutter-50 .col-lg {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+
+    .col-lg-auto,
+    .gutter-5 .col-lg-auto,
+    .gutter-10 .col-lg-auto,
+    .gutter-20 .col-lg-auto,
+    .gutter-30 .col-lg-auto,
+    .gutter-40 .col-lg-auto,
+    .gutter-50 .col-lg-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
+    }
+
     .col-lg-offset-0 {
         margin-left: 0;
     }
@@ -2800,6 +2871,12 @@
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
         max-width: 100%;
+    }
+
+    .col-xl-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
     }
 
     .col-xl-1 {
@@ -3306,6 +3383,33 @@
         -ms-flex-preferred-size: calc( 100% - 50px );
         flex-basis: calc( 100% - 50px );
         max-width: calc( 100% - 50px );
+    }
+
+    .col-xl,
+    .gutter-5 .col-xl,
+    .gutter-10 .col-xl,
+    .gutter-20 .col-xl,
+    .gutter-30 .col-xl,
+    .gutter-40 .col-xl,
+    .gutter-50 .col-xl {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+
+    .col-xl-auto,
+    .gutter-5 .col-xl-auto,
+    .gutter-10 .col-xl-auto,
+    .gutter-20 .col-xl-auto,
+    .gutter-30 .col-xl-auto,
+    .gutter-40 .col-xl-auto,
+    .gutter-50 .col-xl-auto {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        max-width: auto;
     }
 
     .col-xl-offset-0 {
