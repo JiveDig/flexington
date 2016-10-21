@@ -1,3 +1,7 @@
+#### 2.3.0
+* Add col-*-auto functionality
+* fix gutter-* breaking center-* and end-*
+
 #### 2.2.0
 * Change em to pixel breakpoints
 * Add an -xl size for large screens
