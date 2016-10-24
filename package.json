@@ -1,6 +1,6 @@
 {
   "name": "flexington",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "A grid framework using flexbox. Originally forked from FlexBox Grid - flexboxgrid.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

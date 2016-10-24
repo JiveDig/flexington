@@ -6,7 +6,7 @@
 * Breakpoints: xs < 544px, sm > 544px, md > 768px, lg > 992px, xl > 1200px
 * Easily nest columns.
 * Support for WordPress Galleries (not in FlexBox Grid)
-* [View Flexington codepen](http://codepen.io/JiveDig/pen/vXmykK).
+* [View Flexington code examples](http://baselinestarter.com/flexington/).
 
 ## Requirements
 `.col` must be an immediate child of `.row`, this allows for nested grids
