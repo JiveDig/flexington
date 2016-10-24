@@ -1,3 +1,7 @@
+#### 2.3.1
+* Add bottom-*-* bottom margin classes
+* Fix col-*-auto classes when smaller breakpoint has a set size
+
 #### 2.3.0
 * Add col-*-auto functionality
 * fix gutter-* breaking center-* and end-*
