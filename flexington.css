@@ -634,8 +634,8 @@
 .gutter-30 > .col-xs,
 .gutter-40 > .col-xs,
 .gutter-50 > .col-xs {
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
     max-width: 100%;
 }
 
@@ -1343,8 +1343,8 @@
     .gutter-30 > .col-sm,
     .gutter-40 > .col-sm,
     .gutter-50 > .col-sm {
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
         max-width: 100%;
     }
 
@@ -2053,8 +2053,8 @@
     .gutter-30 > .col-md,
     .gutter-40 > .col-md,
     .gutter-50 > .col-md {
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
         max-width: 100%;
     }
 
@@ -2762,8 +2762,8 @@
     .gutter-30 > .col-lg,
     .gutter-40 > .col-lg,
     .gutter-50 > .col-lg {
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
         max-width: 100%;
     }
 
@@ -3471,8 +3471,8 @@
     .gutter-30 > .col-xl,
     .gutter-40 > .col-xl,
     .gutter-50 > .col-xl {
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
         max-width: 100%;
     }
 
