@@ -5,7 +5,7 @@
 * Declare various breakpoints right in your HTML.
 * Easily nest columns.
 * Support for WordPress Galleries
-* [View Flexington codepen](http://codepen.io/JiveDig/pen/vXmykK).
+* [View Flexington code examples](http://baselinestarter.com/flexington/).
 
 ## Requirements
 `.col` must be an immediate child of `.row`, this allows for nested grids
