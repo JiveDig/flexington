@@ -1,3 +1,6 @@
+#### 2.3.2
+* Add .column support to allow easier alignment of items within a single column
+
 #### 2.3.1
 * Add bottom-*-* bottom margin classes
 * Fix col-*-auto classes when smaller breakpoint has a set size
