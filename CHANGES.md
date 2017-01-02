@@ -1,3 +1,6 @@
+#### 2.3.3
+* Add 1px to min-width media queries
+
 #### 2.3.2
 * Add .column support to allow easier alignment of items within a single column
 
