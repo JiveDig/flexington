@@ -1,3 +1,9 @@
+#### 2.3.4
+* Fix col-*-auto IE bug
+
+#### 2.3.3
+* Code organization
+
 #### 2.3.2
 * Add .column support to allow easier alignment of items within a single column
 
