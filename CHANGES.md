@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #### 2.3.5
 * Remove text-alignment from layout related classes
 * Added text-{breakpoint}-left, text-{breakpoint}-center, text-{breakpoint}-right for specifically aligning text in an element
@@ -7,6 +8,10 @@
 
 #### 2.3.3
 * Code organization
+=======
+#### 2.3.3
+* Add 1px to min-width media queries
+>>>>>>> e68207cf0cf59bbf0ce640845a351dc18a70a8ca
 
 #### 2.3.2
 * Add .column support to allow easier alignment of items within a single column
