@@ -1,6 +1,6 @@
 #### 2.3.5
 * Remove text-alignment from layout related classes
-* Added text-{breakpoint}-left, text-{breakpoint}-center, text-{breakpoint}-right for specifically aligning text in an element
+* Added text-{breakpoint}-left, text-{breakpoint}-center, text-{breakpoint}-right for specifically aligning text in an element. These classes do not require row or col.
 
 #### 2.3.4
 * Fix col-*-auto IE bug
