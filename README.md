@@ -25,14 +25,14 @@ Example: `<div class="col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">`.
 ### Genesis Archives
 ```
 // Flexington archive wrap opening html
-add_action( 'genesis_before_loop', 'prefix_do_flexington_wrap_open', 100 );
+add_action( 'genesis_before_while', 'prefix_do_flexington_wrap_open', 100 );
 function prefix_do_flexington_wrap_open() {
 	echo '<div class="row gutter-30">';
 }
 
 // Flexington archive wrap closing html
 // If archive pagination throws things off, try hooking into `genesis_after_endwhile`
-add_action( 'genesis_after_loop', 'prefix_do_flexington_wrap_close', 0 );
+add_action( 'genesis_after_endwhile', 'prefix_do_flexington_wrap_close', 0 );
 function prefix_do_flexington_wrap_close() {
 	echo '</div>';
 }

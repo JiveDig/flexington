@@ -1,3 +1,7 @@
+#### 2.3.5
+* Remove text-alignment from layout related classes
+* Added text-{breakpoint}-left, text-{breakpoint}-center, text-{breakpoint}-right for specifically aligning text in an element
+
 #### 2.3.4
 * Fix col-*-auto IE bug
 
@@ -8,7 +12,7 @@
 * Add .column support to allow easier alignment of items within a single column
 
 #### 2.3.1
-* Add bottom-*-* bottom margin classes
+* Add bottom-{breakpoint}-{value} bottom margin classes
 * Fix col-*-auto classes when smaller breakpoint has a set size
 
 #### 2.3.0
