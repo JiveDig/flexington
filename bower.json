@@ -1,6 +1,6 @@
 {
-	"name": "flexington",
-	"description": "A grid framework using flexbox. Originally forked from FlexBox Grid - flexboxgrid.com.",
+	"name": "jivedig-flexington",
+	"description": "A grid framework using flexbox Originally forked from FlexBox Grid - flexboxgrid.com.",
 	"authors": [
 		"Mike Hemberger <mike@bizbudding.com>"
 	],
@@ -10,9 +10,5 @@
 	],
 	"license": "GPL-2.0+",
 	"homepage": "https://github.com/JiveDig/flexington",
-<<<<<<< HEAD
 	"version": "2.3.5"
-=======
-	"version": "2.3.3"
->>>>>>> e68207cf0cf59bbf0ce640845a351dc18a70a8ca
 }
