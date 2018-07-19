@@ -780,6 +780,38 @@
 	order: 1;
 }
 
+.top-xs-0 {
+	margin-top: 0;
+}
+
+.top-xs-5 {
+	margin-top: 5px;
+}
+
+.top-xs-10 {
+	margin-top: 10px;
+}
+
+.top-xs-20 {
+	margin-top: 20px;
+}
+
+.top-xs-30 {
+	margin-top: 30px;
+}
+
+.top-xs-40 {
+	margin-top: 40px;
+}
+
+.top-xs-50 {
+	margin-top: 50px;
+}
+
+.top-xs-60 {
+	margin-top: 60px;
+}
+
 .bottom-xs-0 {
 	margin-bottom: 0;
 }
@@ -1502,6 +1534,38 @@
 		-ms-flex-order: 1;
 		-webkit-box-ordinal-group: 2;
 		order: 1;
+	}
+
+	.top-sm-0 {
+		margin-top: 0;
+	}
+
+	.top-sm-5 {
+		margin-top: 5px;
+	}
+
+	.top-sm-10 {
+		margin-top: 10px;
+	}
+
+	.top-sm-20 {
+		margin-top: 20px;
+	}
+
+	.top-sm-30 {
+		margin-top: 30px;
+	}
+
+	.top-sm-40 {
+		margin-top: 40px;
+	}
+
+	.top-sm-50 {
+		margin-top: 50px;
+	}
+
+	.top-sm-60 {
+		margin-top: 60px;
 	}
 
 	.bottom-sm-0 {
@@ -2229,6 +2293,38 @@
 		order: 1;
 	}
 
+	.top-md-0 {
+		margin-top: 0;
+	}
+
+	.top-md-5 {
+		margin-top: 5px;
+	}
+
+	.top-md-10 {
+		margin-top: 10px;
+	}
+
+	.top-md-20 {
+		margin-top: 20px;
+	}
+
+	.top-md-30 {
+		margin-top: 30px;
+	}
+
+	.top-md-40 {
+		margin-top: 40px;
+	}
+
+	.top-md-50 {
+		margin-top: 50px;
+	}
+
+	.top-md-60 {
+		margin-top: 60px;
+	}
+
 	.bottom-md-0 {
 		margin-bottom: 0;
 	}
@@ -2953,6 +3049,38 @@
 		order: 1;
 	}
 
+	.top-lg-0 {
+		margin-top: 0;
+	}
+
+	.top-lg-5 {
+		margin-top: 5px;
+	}
+
+	.top-lg-10 {
+		margin-top: 10px;
+	}
+
+	.top-lg-20 {
+		margin-top: 20px;
+	}
+
+	.top-lg-30 {
+		margin-top: 30px;
+	}
+
+	.top-lg-40 {
+		margin-top: 40px;
+	}
+
+	.top-lg-50 {
+		margin-top: 50px;
+	}
+
+	.top-lg-60 {
+		margin-top: 60px;
+	}
+
 	.bottom-lg-0 {
 		margin-bottom: 0;
 	}
@@ -3675,6 +3803,38 @@
 		-ms-flex-order: 1;
 		-webkit-box-ordinal-group: 2;
 		order: 1;
+	}
+
+	.top-xl-0 {
+		margin-top: 0;
+	}
+
+	.top-xl-5 {
+		margin-top: 5px;
+	}
+
+	.top-xl-10 {
+		margin-top: 10px;
+	}
+
+	.top-xl-20 {
+		margin-top: 20px;
+	}
+
+	.top-xl-30 {
+		margin-top: 30px;
+	}
+
+	.top-xl-40 {
+		margin-top: 40px;
+	}
+
+	.top-xl-50 {
+		margin-top: 50px;
+	}
+
+	.top-xl-60 {
+		margin-top: 60px;
 	}
 
 	.bottom-xl-0 {
