@@ -24,25 +24,22 @@ Example: `<div class="col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">`.
 
 ### Genesis Archives
 ```
-// Flexington archive wrap opening html
-add_action( 'genesis_before_while', 'prefix_do_flexington_wrap_open', 100 );
-function prefix_do_flexington_wrap_open() {
+// Flexington archive wrap opening html.
+add_action( 'genesis_before_while', function() {
 	echo '<div class="row gutter-30">';
-}
+}, 100 );
 
-// Flexington archive wrap closing html
-// If archive pagination throws things off, try hooking into `genesis_after_endwhile`
-add_action( 'genesis_after_endwhile', 'prefix_do_flexington_wrap_close', 0 );
-function prefix_do_flexington_wrap_close() {
+// Flexington archive wrap closing html.
+// If archive pagination throws things off.
+add_action( 'genesis_after_endwhile', function() {
 	echo '</div>';
-}
+}, 0 );
 
-// Add Flexington col classes to .entry
-add_filter( 'genesis_attr_entry', 'prefix_flexington_archive_wrap' );
-function prefix_flexington_archive_wrap( $attributes ) {
+// Add Flexington col classes to .entry.
+add_filter( 'genesis_attr_entry', function( $attributes ) {
 	$attributes['class'] = $attributes['class']. ' col col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2';
 	return $attributes;
-}
+});
 ```
 
 ## WordPress Galleries
@@ -59,16 +56,15 @@ add_filter( 'use_default_gallery_style', '__return_false' );
  *
  * @return void
  */
-add_action( 'admin_head', 'prefix_remove_unsupported_flexington_gallery_options' );
-function prefix_remove_unsupported_flexington_gallery_options() {
-    echo '<style type="text/css">
-        .gallery-settings .columns option[value="5"],
-        .gallery-settings .columns option[value="7"],
-        .gallery-settings .columns option[value="8"],
-        .gallery-settings .columns option[value="9"] {
-            display:none !important;
-            visibility: hidden !important;
-        }
-        </style>';
-}
+add_action( 'admin_head', function() {
+	echo '<style type="text/css">
+		.gallery-settings .columns option[value="5"],
+		.gallery-settings .columns option[value="7"],
+		.gallery-settings .columns option[value="8"],
+		.gallery-settings .columns option[value="9"] {
+			display:none !important;
+			visibility: hidden !important;
+		}
+		</style>';
+});
 ```
