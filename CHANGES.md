@@ -1,3 +1,8 @@
+#### 2.4.0
+* All margins are now divisible by 4 or 8. No longer by 10's.
+* Added top margin utility classes.
+* Top/bottom/gutter size classes now use xxs/xs/sm/md/lg/xl/xxl instead of numbers. Example: top-xs-md bottom-xs-lg gutter-xs-sm.
+
 #### 2.3.5
 * Remove text-alignment from layout related classes
 * Added text-{breakpoint}-left, text-{breakpoint}-center, text-{breakpoint}-right for specifically aligning text in an element. These classes do not require row or col.
